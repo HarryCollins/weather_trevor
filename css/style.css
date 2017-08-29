@@ -1,0 +1,43 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.container-fluid {
+  position: relative;
+  opacity: 0.85;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.weather {
+  position: absolute;
+  left: 0;
+  top: 75%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  opacity: 0.65;
+}
+
+.weather {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 6px;
+}
+
+#temp-unit{
+  letter-spacing: 2px !important;
+  color: #51d3ff;
+}
+
+.small{
+  font-size: 12px;
+  letter-spacing: 1px;
+}
